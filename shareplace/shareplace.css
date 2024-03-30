@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #008F7A;
+}
+
+.header{
+    height: 7rem;
+    background-color: #C4FCEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 1rem;
+}
+
+
+.header h1{
+    font-size: 50px;
+    color: #845EC2;
+}
+
+.maprender{
+    display: flex;
+    height: 70vh;
+    padding: 10px;  
+}
+
+.map{
+    margin: 0 auto;
+    border: 1px solid black;
+     width: 50%;
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+   
+    padding: 10px 30px;
+    background-color: #FF9671;
+    border-radius: 10px;
+}
+
+.btn a:active,
+.btn a:focus{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+   
+    padding: 10px 30px;
+    background-color: #FF9671;
+    border-radius: 10px;
+}
